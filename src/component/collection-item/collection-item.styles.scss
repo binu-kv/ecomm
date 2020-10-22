@@ -41,12 +41,17 @@
     font-size: 18px;
 
     .name {
-      width: 90%;
+     width: 90%;
       margin-bottom: 15px;
+      font-size: 20px;
+      font-weight: 600;
     }
 
     .price {
-      width: 10%;
+      width: 11%;
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
     }
   }
 }
