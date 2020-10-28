@@ -23,7 +23,7 @@ const Header = ({ currentUser, hidden })=> (
         <CartIcon />
             <Link className='option' to='/shop'>SHOP</Link>
             {currentUser ? (
-                <Link to='/'><div className='option'  onClick={()=>auth.signOut()}>
+                <Link to='/signin'><div className='option'  onClick={()=>auth.signOut()}>
                    SIGN OUT
                 </div></Link>
                 ) : (
